@@ -18,13 +18,11 @@
   font-weight: 900;
   background-color: rgba(0, 0, 0, 0.3);
 }
-
 section > header {
   font-size: 3em;
   font-weight: 700;
   width: 100%;
 }
-
 section > h2 {
   margin: 20px 0;
 }
@@ -37,14 +35,12 @@ section > h2 {
   flex-wrap: wrap;
   margin-bottom: 15px;
 }
-
 .work > .my-container {
   margin: 20px 10px;
   text-align: center;
   height: 350px;
   width: 350px;
 }
-
 .my-container > article {
   height: 90%;
 }
@@ -60,7 +56,6 @@ section > h2 {
   background-image: url(/pics/under-construction.jpg);
   background-size: cover;
 }
-
 .my-container > a {
   text-decoration: none;
 }
@@ -73,7 +68,6 @@ section > h2 {
   height: 100px;
   display: block;
 }
-
 .tools > .html5 {
   background-color: #e34c26;
   width: 100vw;
@@ -90,13 +84,28 @@ section > h2 {
   background-color: #563d7c;
   width: 100vw;
 }
+.tools > .github {
+  background-color: #6cc644;
+  width: 100vw;
+}
+.tools > .git {
+  background-color: #3e2c00;
+  width: 100vw;
+}
 .bio > ul > li {
   list-style-type: none;
   font-size: 1.5em;
 }
-/* Tools Section CSS -END- */
+/* About Section CSS -END- */
 
-.contact > a > img {
-  width: 50px;
-  height: 50px;
+/* Contact Section CSS -START- */
+.contact > .my-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+.contact > .my-container > a > img {
+  width: 100px;
+  height: 100px;
+}
+/* Contact Section CSS -END- */
