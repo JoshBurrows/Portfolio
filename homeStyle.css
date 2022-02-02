@@ -1,5 +1,6 @@
 /* Custom CSS */
 
+/* Intro Section CSS -START- */
 .intro {
   height: 100vh;
   width: 100vw;
@@ -17,40 +18,83 @@
   font-weight: 900;
   background-color: rgba(0, 0, 0, 0.3);
 }
+
 section > header {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 700;
   width: 100%;
 }
-.work {
+
+section > h2 {
+  margin: 20px 0;
+}
+/* Intro Section CSS -END- */
+
+/* Projects section CSS -START- */
+#projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 15px;
 }
 
-.work article {
-  width: 225px;
-  height: 225px;
+.work > .my-container {
   margin: 20px 10px;
   text-align: center;
+  height: 350px;
+  width: 350px;
 }
-.work .rgb-picker {
-  background-image: url(./pics/color-picker.png);
-  background-size: 225px 225px;
+
+.my-container > article {
+  height: 90%;
 }
-.work .pBall-picker {
-  background-image: url(./pics/powerBall-picker.png);
-  background-size: 225px 225px;
+.pBall-picker {
+  background-image: url(/pics/powerBall-picker.png);
+  background-size: cover;
 }
-.work .project3 {
-  background-image: url(./pics/under-construction.jpg);
-  background-size: 225px 225px;
+.rgb-picker {
+  background-image: url(/pics/color-picker.png);
+  background-size: contain;
 }
+.project3 {
+  background-image: url(/pics/under-construction.jpg);
+  background-size: cover;
+}
+
+.my-container > a {
+  text-decoration: none;
+}
+/* Poject Section CSS -END- */
+
+/* About Section CSS -START- */
 
 .tools > img {
   width: 100px;
   height: 100px;
+  display: block;
 }
+
+.tools > .html5 {
+  background-color: #e34c26;
+  width: 100vw;
+}
+.tools > .css {
+  background-color: #264de4;
+  width: 100vw;
+}
+.tools > .js {
+  background-color: #f0db4f;
+  width: 100vw;
+}
+.tools > .bootstrap {
+  background-color: #563d7c;
+  width: 100vw;
+}
+.bio > ul > li {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+/* Tools Section CSS -END- */
 
 .contact > a > img {
   width: 50px;
