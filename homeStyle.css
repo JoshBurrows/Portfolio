@@ -35,13 +35,13 @@ section > h2 {
   flex-wrap: wrap;
   margin-bottom: 15px;
 }
-.work > .my-container {
+.work > .my-project {
   margin: 20px 10px;
   text-align: center;
   height: 350px;
   width: 350px;
 }
-.my-container > article {
+.my-project > article {
   height: 90%;
 }
 .pBall-picker {
@@ -56,7 +56,7 @@ section > h2 {
   background-image: url(../pics/under-construction.jpg);
   background-size: cover;
 }
-.my-container > a {
+.my-project > a {
   text-decoration: none;
 }
 /* Poject Section CSS -END- */
