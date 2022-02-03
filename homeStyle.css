@@ -5,7 +5,7 @@
   height: 100vh;
   width: 100vw;
   text-align: center;
-  background-image: url(pics/jcb-background-img2.jpg);
+  background-image: url(portfolio/pics/jcb-background-img2.jpg);
   background-size: contain;
   background-repeat: round;
   display: flex;
@@ -45,15 +45,15 @@ section > h2 {
   height: 90%;
 }
 .pBall-picker {
-  background-image: url(pics/powerBall-picker.png);
+  background-image: url(portfolio/pics/powerBall-picker.png);
   background-size: cover;
 }
 .rgb-picker {
-  background-image: url(pics/color-picker.png);
+  background-image: url(portfolio/pics/color-picker.png);
   background-size: contain;
 }
 .project3 {
-  background-image: url(pics/under-construction.jpg);
+  background-image: url(portfolio/pics/under-construction.jpg);
   background-size: cover;
 }
 .my-container > a {
