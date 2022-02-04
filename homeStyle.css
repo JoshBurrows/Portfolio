@@ -1,7 +1,7 @@
 /* Custom CSS */
 
 /* Intro Section CSS -START- */
-.intro {
+/* .intro {
   height: 100vh;
   width: 100vw;
   text-align: center;
@@ -11,6 +11,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+.intro {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container {
+  height: 40%;
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 60px -10px rgba(250, 34, 34, 0.712);
 }
 .intro a {
   color: rgb(255, 255, 255) !important;
