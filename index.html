@@ -1,194 +1,328 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="homeStyle.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Oswald:wght@600&display=swap"
-      rel="stylesheet"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <!-- Bootstrap  -->
-    <!-- RESPONSIVE TAG, MOBILE FIRST -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Bootstrap CSS link -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
+    <title>Home - Josh Burrows Development</title>
+    <meta
+      http-equiv="description"
+      content="Making modern websites, with modern tools, frameworks, and libraries. Please contact about services."
     />
-    <title>Josh Burrows</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+    />
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link rel="stylesheet" href="assets/css/Social-Icons.css" />
   </head>
-  <body>
-    <!-- ********* START NAVBAR USING BOOTSTRAP ********* -->
-    <!-- ********* START NAVBAR USING BOOTSTRAP ********* -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75 fixed-top"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#social"> Josh Burrows</a>
+
+  <body id="page-top">
+    <a
+      class="menu-toggle rounded"
+      href="#"
+      style="color: var(--bs-secondary); background: var(--bs-primary)"
+      ><i class="fa fa-bars"></i
+    ></a>
+    <nav class="navbar navbar-light navbar-expand" id="sidebar-wrapper">
+      <div class="container">
         <button
-          class="navbar-toggler navbar-toggler-light bg-dark"
-          type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"> </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#home"> Home</a>
-            <a class="nav-link" href="#projects"> Projects</a>
-            <a class="nav-link" href="#about"> About</a>
-            <a class="nav-link" href="#contact"> Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- ********* END NAVBAR USING BOOTSTRAP ********* -->
-    <!-- ********* END NAVBAR USING BOOTSTRAP ********* -->
-    <main>
-      <!-- ********* START INTRO SECTION ********* -->
-      <!-- ********* START INTRO SECTION ********* -->
-      <section id="home" class="intro">
-        <div class="hero-container">
-          <a href="#about" type="button" class="btn btn-outline-primary"
-            >Jr. Web Developer
-          </a>
-        </div>
-      </section>
-      <!-- ********* END INTRO SECTION ********* -->
-      <!-- ********* END INTRO SECTION ********* -->
-
-      <!-- ********* START PROJECTS SECTION ********* -->
-      <!-- ********* START PROJECTS SECTION ********* -->
-      <section id="projects" class="work bg-primary text-dark">
-        <header>Projects</header>
-        <div class="my-project">
-          <article class="project3 border border-white rounded">
-            <h5 id="project-3" class="bg-dark rounded">
-              This webiste you're on
-            </h5>
-          </article>
-          <a class="live-version" href="#home">Live Version </a>
-          <a href="#">< Source Code /></a>
-        </div>
-        <div class="my-project">
-          <article class="rgb-picker border border-white rounded">
-            <h5 id="rgb-color-picker" class="bg-dark rounded">
-              RGB color picker
-            </h5>
-          </article>
-          <a
-            class="live-version"
-            href=" https://joshburrows.github.io/color-picker/"
-            >Live Version
-          </a>
-          <a href="https://github.com/JoshBurrows/color-picker"
-            >< Source Code /></a
-          >
-        </div>
-        <div class="my-project">
-          <article class="pBall-picker border border-white rounded">
-            <h5 id="powerball-picker" class="bg-dark rounded">
-              PowerBall Lotto Picker
-            </h5>
-          </article>
-          <a
-            class="live-version"
-            href=" https://joshburrows.github.io/Lotto-Number-Picker/"
-            >Live Version
-          </a>
-          <a href="https://github.com/JoshBurrows/Lotto-Number-Picker">
-            < Source Code /></a
-          >
-        </div>
-      </section>
-      <!-- ********* END PROJECTS SECTION ********* -->
-      <!-- ********* END PROJECTS SECTION ********* -->
-
-      <!-- ********* START ABOUT SECTION ********* -->
-      <!-- ********* START ABOUT SECTION ********* -->
-      <section id="about" class="bg-dark text-light">
-        <header>About Me</header>
-        <h2>Tools I use</h2>
-        <div class="tools">
-          <img class="html5" src="icons/html5-brands.svg" alt="html" /><img
-            class="css"
-            src="icons/css3-alt-brands.svg"
-            alt="css"
-          /><img
-            class="js"
-            src="icons/js-square-brands.svg"
-            alt="javascript"
-          /><img
-            class="bootstrap"
-            src="icons/bootstrap-brands.svg"
-            alt="bootstrap"
-          /><img class="github" src="icons/github-brands.svg" alt="github" />
-          <img
-            class="git"
-            src="icons/git-alt-brands.svg"
-            alt="git-alt-brands"
-          />
-        </div>
-        <h2>Bio</h2>
-        <div class="bio">
-          <ul>
-            <li>Current career goal: Jr Web Developer</li>
-            <li>Current Age: 37</li>
-            <li>Current Occupation: Construction</li>
-            <li>Current Education: Associates degree, Angelina CC</li>
-            <li>
-              Description: I grew up in east Texas, im married, and we have an 8
-              year old son. I've always enjoyed creating new things and solving
-              challenges. If you'd like to know more about me you can check our
-              my
-              <span
-                ><a href="https://www.linkedin.com/in/josh-burrows-9b1b6a230/"
-                  >Linkedin</a
-                >.</span
+          class="navbar-toggler d-none"
+          data-bs-target="#"
+        ></button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav sidebar-nav" id="sidebar-nav">
+            <li class="nav-item sidebar-brand">
+              <a class="nav-link active js-scroll-trigger" href="#page-top"
+                >Josh Burrows&nbsp;</a
               >
+            </li>
+            <li class="nav-item sidebar-nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+            </li>
+            <li class="nav-item sidebar-nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item sidebar-nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Service</a>
+            </li>
+            <li class="nav-item sidebar-nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item sidebar-nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
-      </section>
-      <!-- ********* END ABOUT SECTION ********* -->
-      <!-- ********* END ABOUT SECTION ********* -->
-
-      <!-- ********* START CONTACT SECTION ********* -->
-      <!-- ********* START CONTACT SECTION ********* -->
-      <section id="contact" class="contact bg-dark text-light">
-        <header>Contact me</header>
-        <div class="my-container">
-          <a href="https://www.linkedin.com/in/josh-burrows-9b1b6a230/"
-            ><img src="icons/linkedin-brands.svg" alt="Linkedin-logo"
-          /></a>
-          <a href="https://github.com/JoshBurrows"
-            ><img src="icons/github-brands.svg" alt="github-logo"
-          /></a>
-          <a href="#email"
-            ><img src="icons/envelope-regular.svg" alt="email-logo"
-          /></a>
+      </div>
+    </nav>
+    <header
+      class="d-flex rubberBand animated masthead"
+      style="
+        background: url('assets/img/cute-spider-sml-web.jpg') no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="container my-auto text-center">
+        <h1
+          class="font-monospace mb-1"
+          data-bss-hover-animate="rubberBand"
+          style="color: var(--bs-primary)"
+        >
+          Josh Burrows&nbsp;
+        </h1>
+        <h3 class="mb-5">
+          <em class="font-monospace" style="color: var(--bs-primary)"
+            >A Jr. Web Developer</em
+          >
+        </h3>
+        <a
+          class="btn btn-primary btn-xl js-scroll-trigger"
+          role="button"
+          data-bss-hover-animate="jello"
+          href="#about"
+          >Find Out More</a
+        >
+        <div class="overlay"></div>
+      </div>
+    </header>
+    <section
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      id="about"
+      class="content-section bg-light"
+    >
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="font-monospace">About Me:</h2>
+            <p class="lead mb-5">
+              <span
+                >I grew up in east Texas working construction for most of my
+                life and I've always enjoyed creating new things with my hands.
+                I have decided to take that passion and create in the digital
+                space as well. Knowing the right tools for the job and how to
+                use them is a concept that I carry into web development. Please
+                see my&nbsp;<a
+                  href="https://www.linkedin.com/in/josh-burrows-9b1b6a230/"
+                  >LinkedIn</a
+                >&nbsp;if you'd like to know more about me</span
+              ><span>!</span>
+            </p>
+            <a
+              class="btn btn-dark btn-xl js-scroll-trigger"
+              role="button"
+              href="#services"
+              >What We Offer</a
+            >
+          </div>
         </div>
-      </section>
-      <!-- ********* END CONTACT SECTION ********** -->
-      <!-- ********* END CONTACT SECTION ********** -->
-    </main>
-    <!-- Bootstrap JS  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <!-- javaScript -->
-    <script src="javaScript.js"></script>
+      </div>
+    </section>
+    <section
+      data-aos="zoom-in-up"
+      id="services"
+      class="content-section bg-primary text-white text-center"
+    >
+      <div class="container">
+        <div class="content-section-heading">
+          <h2 class="mb-5">What We Offer</h2>
+        </div>
+        <div class="row justify-content-evenly" style="padding: 0px">
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <span class="mx-auto service-icon rounded-circle mb-3"
+              ><i class="icon-screen-smartphone"></i
+            ></span>
+            <h4><strong>Responsive Design</strong></h4>
+            <p class="mb-0 text-faded">
+              Make your website look and perform well across all devices and
+              screen sizes!
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <span class="mx-auto service-icon rounded-circle mb-3"
+              ><i class="icon-pencil"></i
+            ></span>
+            <h4><strong>&lt;Code&gt;</strong></h4>
+            <p class="mb-0 text-faded">
+              Custom code your project from scratch using tech's leading
+              libraries, frameworks, and languages!&nbsp;
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <span class="mx-auto service-icon rounded-circle mb-3"
+              ><i class="icon-mustache"></i
+            ></span>
+            <h4><strong></strong>Communication</h4>
+            <p class="mb-0 text-faded">
+              Personal communication throughout the process. From design to
+              launch, I'll be there every step of the way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="slide-up" id="portfolio" class="content-section">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="font-monospace mb-5">Recent Projects</h2>
+        </div>
+        <div
+          class="row g-0 d-flex justify-content-center align-items-xl-center"
+        >
+          <div class="col-lg-6">
+            <a
+              class="portfolio-item"
+              href="https://joshburrows.github.io/color-picker/"
+              target="_blank"
+            >
+              <div class="caption">
+                <div class="caption-content">
+                  <h2>Color picker</h2>
+                  <p class="mb-0">
+                    Generates a random RGB color value for you to copy and paste
+                    and use yourself!
+                  </p>
+                </div>
+              </div>
+              <img
+                class="img-fluid d-flex flex-grow-1 flex-shrink-1 flex-fill"
+                src="assets/img/color-picker.png"
+                loading="lazy"
+                width="100%"
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a
+              class="d-flex flex-grow-1 flex-shrink-1 flex-fill portfolio-item"
+              href="https://joshburrows.github.io/Lotto-Number-Picker/"
+              target="_blank"
+            >
+              <div class="caption">
+                <div class="caption-content">
+                  <h2>Lotto number picker</h2>
+                  <p class="mb-0">
+                    Why pick your own numbers when this will generate the
+                    numbers for you! Good Luck!
+                  </p>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/lotto-tickets.jpg" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#page-top">
+              <div class="caption">
+                <div class="caption-content">
+                  <h2>ThIs website</h2>
+                  <p class="mb-0">
+                    I made this website from scratch using HTML, CSS, JS,
+                    Bootstrap, GIT Bash, and Git-Hub. I constantly improve upon
+                    my stack of technologies everyday!
+                  </p>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/cute-spider-sml-web.jpg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="d-flex justify-content-center align-items-center flex-wrap map"
+      id="contact"
+      style="
+        background: var(--bs-warning);
+        border-radius: 5px;
+        transform: translate(0px) rotate(0deg) scale(1);
+        height: 80vh;
+        width: 100vw;
+      "
+    >
+      <div class="container">
+        <section
+          data-aos="slide-right"
+          class="contact-clean"
+          style="font-size: 12px; border-radius: 5px; box-shadow: 2px -1px"
+        >
+          <form data-bss-recipient="4ac772d7ec41940b3c3998181dd1dd02">
+            <h2 class="text-center">Contact for services!</h2>
+            <div class="mb-3">
+              <input
+                class="form-control"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                class="form-control"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                name="message"
+                placeholder="Message"
+                rows="14"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-primary" type="submit">send</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </section>
+    <footer
+      class="d-flex flex-column justify-content-center align-items-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center align-items-xl-center justify-content-xxl-center footer text-center"
+      style="background: var(--bs-primary)"
+    >
+      <h2 class="font-monospace mb-5">My home town</h2>
+      <iframe
+        class="border rounded d-xl-flex"
+        allowfullscreen=""
+        frameborder="0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyABHpUqbsGyjHe2jSQcYLrMAn1Rg1VwPJg&amp;q=Livingston%2C+Texas&amp;zoom=10&amp;maptype=satellite"
+        width="60%"
+        height="400"
+        style="width: 200px; height: 200px"
+      ></iframe>
+      <div class="container">
+        <p class="text-muted mb-0 small">
+          Copyright &nbsp;© Josh Burrows Development 2022
+        </p>
+      </div>
+      <a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"
+        ><i class="fa fa-angle-up"></i
+      ></a>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/stylish-portfolio.js"></script>
   </body>
 </html>
