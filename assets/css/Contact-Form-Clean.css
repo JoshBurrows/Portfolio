@@ -84,3 +84,15 @@
   color: #fff;
 }
 
+.btn-xl.js-scroll-trigger {
+  background: none;
+  color: crimson;
+}
+
+.btn-xl.js-scroll-trigger {
+  color: var(--bs-yellow);
+}
+
+#services {
+}
+
